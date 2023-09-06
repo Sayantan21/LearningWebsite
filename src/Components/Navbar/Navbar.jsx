@@ -48,7 +48,7 @@ const Navbar = () => {
       <nav>
         <div className="container nav__container">
           <Link to="/">
-            <h4>CİNAR</h4> 
+            <h4>EduTech</h4> 
           </Link>
           <ul className="nav__menu" style={open?{display:"flex"}:{}}>
             <li><Link to="/">Home</Link></li>
