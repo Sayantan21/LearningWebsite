@@ -13,7 +13,7 @@ const Hero = () => {
                         Consequatur assumenda voluptas, ipsum nihil eligendi eaque
                         odio doloremque nam a accusantium?
                     </p>
-                    <Link to="/course" className="btn btn-primary">Get Started</Link>
+                    <Link to="/topic" className="btn btn-primary">Get Started</Link>
                 </div>
 
                 <div className="header__right">
