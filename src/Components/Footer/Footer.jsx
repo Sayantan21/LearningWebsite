@@ -37,7 +37,7 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <div>
                 <p>+916294748063</p>
-                <p>sayantan@gmail.com</p>
+                <p>sayantan@gmail.com</p> 
             </div>
 
             <ul className="footer__socials">
