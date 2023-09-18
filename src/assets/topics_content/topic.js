@@ -16,6 +16,25 @@ import js_logo from '../topic_image/js.png'
 import react_logo from '../topic_image/react.png'
 import angular_logo from '../topic_image/angular.png'
 
+import node_js_logo from '../topic_image/node_js.png'
+// import express_js from '../topic_image/'
+import python_logo from '../topic_image/python.png'
+import django_logo from '../topic_image/django.png'
+import falsk_logo from '../topic_image/flask.png'
+import java_logo from '../topic_image/java.png'
+import sprint_boot_logo from '../topic_image/spring_boot.png'
+import php_logo from '../topic_image/php.png'
+import c_logo from '../topic_image/c.png'
+import c_plus_logo from '../topic_image/c++.png'
+import kotlin_logo from '../topic_image/kotlin.png'
+
+import dbms_logo from '../topic_image/dbms.png'
+import sql_logo from '../topic_image/sql.png'
+import mongodb_logo from '../topic_image/mongodb.png'
+import data_structure_logo from '../topic_image/data_structure.png'
+
+
+
 
 // content image
 // html images
@@ -145,7 +164,8 @@ import html_span_output from '../content_image/html_images/html_tag_10_span_tags
 // ]
 
 
-const content_details2 = [{
+const content_details2 = [
+    {
         "id": 1,
         "content_name": "Frontend-Development",
         "sub_content": [{
@@ -369,7 +389,7 @@ const content_details2 = [{
                 "id": 1,
                 "sub_content_name": "Node JS",
                 "description": "",
-                "logo": "",
+                "logo": node_js_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -382,7 +402,7 @@ const content_details2 = [{
                 "id": 2,
                 "sub_content_name": "Express JS",
                 "description": "",
-                "logo": "",
+                "logo": node_js_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -395,7 +415,7 @@ const content_details2 = [{
                 "id": 3,
                 "sub_content_name": "Python",
                 "description": "",
-                "logo": "",
+                "logo": python_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -408,7 +428,7 @@ const content_details2 = [{
                 "id": 4,
                 "sub_content_name": "Django",
                 "description": "",
-                "logo": "",
+                "logo": django_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -421,7 +441,7 @@ const content_details2 = [{
                 "id": 5,
                 "sub_content_name": "Flask",
                 "description": "",
-                "logo": "",
+                "logo": falsk_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -434,7 +454,7 @@ const content_details2 = [{
                 "id": 6,
                 "sub_content_name": "Java",
                 "description": "",
-                "logo": "",
+                "logo": java_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -447,7 +467,7 @@ const content_details2 = [{
                 "id": 7,
                 "sub_content_name": "Spring Boot",
                 "description": "",
-                "logo": "",
+                "logo": sprint_boot_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -460,7 +480,7 @@ const content_details2 = [{
                 "id": 8,
                 "sub_content_name": "PHP",
                 "description": "",
-                "logo": "",
+                "logo": php_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -479,7 +499,7 @@ const content_details2 = [{
                 "id": 1,
                 "sub_content_name": "C",
                 "description": "",
-                "logo": "",
+                "logo": c_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -492,7 +512,7 @@ const content_details2 = [{
                 "id": 2,
                 "sub_content_name": "C++",
                 "description": "",
-                "logo": "",
+                "logo": c_plus_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -505,7 +525,7 @@ const content_details2 = [{
                 "id": 3,
                 "sub_content_name": "Java",
                 "description": "",
-                "logo": "",
+                "logo": java_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -518,7 +538,7 @@ const content_details2 = [{
                 "id": 4,
                 "sub_content_name": "Python",
                 "description": "",
-                "logo": "",
+                "logo": python_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -531,7 +551,7 @@ const content_details2 = [{
                 "id": 5,
                 "sub_content_name": "JavaScript",
                 "description": "",
-                "logo": "",
+                "logo": js_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -544,7 +564,7 @@ const content_details2 = [{
                 "id": 6,
                 "sub_content_name": "Kotlin",
                 "description": "",
-                "logo": "",
+                "logo": kotlin_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -561,9 +581,9 @@ const content_details2 = [{
         "sub_content":[
             {
                 "id": 1,
-                "sub_content_name": "DBMS",
+                "sub_content_name": "DS-Algo",
                 "description": "",
-                "logo": "",
+                "logo": data_structure_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -571,46 +591,7 @@ const content_details2 = [{
                     "answer_link": "",
                     "code_snippet": []
                 }]
-            },
-            {
-                "id": 2,
-                "sub_content_name": "RDBMS",
-                "description": "",
-                "logo": "",
-                "content": [{
-                    "id": 1,
-                    "question": "",
-                    "answer": "",
-                    "answer_link": "",
-                    "code_snippet": []
-                }]
-            },
-            {
-                "id": 3,
-                "sub_content_name": "SQL",
-                "description": "",
-                "logo": "",
-                "content": [{
-                    "id": 1,
-                    "question": "",
-                    "answer": "",
-                    "answer_link": "",
-                    "code_snippet": []
-                }]
-            },
-            {
-                "id": 4,
-                "sub_content_name": "NOSQL",
-                "description": "",
-                "logo": "",
-                "content": [{
-                    "id": 1,
-                    "question": "",
-                    "answer": "",
-                    "answer_link": "",
-                    "code_snippet": []
-                }]
-            },
+            }
         ]
     },
     {
@@ -621,7 +602,7 @@ const content_details2 = [{
                 "id": 1,
                 "sub_content_name": "DBMS",
                 "description": "",
-                "logo": "",
+                "logo": dbms_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -632,9 +613,9 @@ const content_details2 = [{
             },
             {
                 "id": 2,
-                "sub_content_name": "RDBMS",
+                "sub_content_name": "RDBMS-SQL",
                 "description": "",
-                "logo": "",
+                "logo": sql_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
@@ -645,22 +626,9 @@ const content_details2 = [{
             },
             {
                 "id": 3,
-                "sub_content_name": "SQL",
+                "sub_content_name": "NOSQL-MongoDB",
                 "description": "",
-                "logo": "",
-                "content": [{
-                    "id": 1,
-                    "question": "",
-                    "answer": "",
-                    "answer_link": "",
-                    "code_snippet": []
-                }]
-            },
-            {
-                "id": 4,
-                "sub_content_name": "NOSQL",
-                "description": "",
-                "logo": "",
+                "logo": mongodb_logo,
                 "content": [{
                     "id": 1,
                     "question": "",
