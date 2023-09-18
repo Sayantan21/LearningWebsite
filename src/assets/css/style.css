@@ -19,7 +19,8 @@
     --color-black: #000;
     --color-bg: #1f2641;
     --color-bg1: #2e3267;
-    --color-bg2: #424890;
+    --color-bg2: #010101;
+    --color-bg3: #2dbad0;
     --container-width-lg: 80%;
     --container-width-md: 90%;
     --container-width-sm: 94%;
@@ -29,15 +30,16 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
-    color: var(--color-white);
-    background: var(--color-bg);
-    background-image: url("../images/bg-texture.png");
+    background-color: aliceblue;
+    /* color: var(--color-bg2); */
+    /* background: var(--color-bg); */
+    /* background-image: url("../images/bg-texture.png"); */
 }
 
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
-    
+
 }
 
 section {
@@ -49,7 +51,11 @@ section h2 {
     margin-bottom: 4rem;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     line-height: 1.2;
 }
 
@@ -70,7 +76,7 @@ h4 {
 }
 
 a {
-    color: var(--color-white);
+    /* color: var(--color-white); */
 }
 
 img {
@@ -81,23 +87,29 @@ img {
 
 .btn {
     display: inline-block;
-    background: var(--color-white);
-    color: var(--color-black);
+    background: var(--color-bg3);
+    color: var(--color-white);
     padding: 1rem 2rem;
     border: 1px solid transparent;
     font-weight: 500;
     transition: var(--transition);
+    border-radius: 50px;
 }
 
 .btn:hover {
-    background: transparent;
-    color: var(--color-white);
-    border-color: var(--color-white);
+    /* background: transparent; */
+    /* color: var(--color-white); */
+    /* border-color: var(--color-white); */
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.192);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transform: scale(.90);
 }
 
 .btn-primary {
-    background: var(--color-danger);
-    color: var(--color-white);
+    /* background: var(--color-danger); */
+    /* color: var(--color-white); */
 }
 
 
@@ -105,9 +117,9 @@ img {
 
 nav {
     background: transparent;
-    width: 100vw;
+    width: 100%;
     height: 5rem;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     z-index: 11;
 }
@@ -149,8 +161,8 @@ nav button {
 /* ========================================== HEADER ========================================== */
 
 header {
-    position: relative;
-    top: 5rem;
+    /* position: relative; */
+    /* top: 5rem; */
     overflow: hidden;
     height: 70vh;
     margin-bottom: 5rem;
@@ -172,8 +184,8 @@ header {
 /* ========================================== CATEGORIES ========================================== */
 
 .categories {
-    background: var(--color-bg1);
-    height: 32rem;
+    /* background: var(--color-bg1); */
+    /* height: 32rem; */
 }
 
 .categories h1 {
@@ -201,10 +213,18 @@ header {
 }
 
 .category {
-    background: var(--color-bg2);
+    /* background: var(--color-bg2); */
     padding: 2rem;
     border-radius: 2rem;
     transition: var(--transition);
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .category:hover {
@@ -256,10 +276,17 @@ header {
 }
 
 .course {
-    background: var(--color-bg1);
+    /* background: var(--color-bg1); */
     text-align: center;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     transition: var(--transition);
+
+    /* From https://css.glass */
+    background: rgb(255, 255, 255);
+    border-radius: 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
 }
 
 .course:hover {
@@ -269,7 +296,7 @@ header {
 }
 
 .course__info {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .course__info p {
@@ -312,7 +339,7 @@ header {
 }
 
 .faq p {
-    margin-top: 0.8rem ;
+    margin-top: 0.8rem;
     display: none;
 }
 
@@ -364,14 +391,14 @@ header {
     left: 46%;
     top: -1.4rem;
     transform: rotate(45deg);
-    
+
 }
 
 
 /* ========================================== FOOTER ========================================== */
 
 footer {
-    background: var(--color-bg1);
+    background: var(--color-bg3);
     padding-top: 5rem;
     font-size: 0.9rem;
 }
@@ -382,7 +409,7 @@ footer {
     gap: 5rem;
 }
 
-.footer__container > div h4 {
+.footer__container>div h4 {
     margin-bottom: 1.2rem;
 }
 
@@ -419,7 +446,7 @@ footer ul li a:hover {
     .container {
         width: var(--container-width-md);
     }
-    
+
     h1 {
         font-size: 2.2rem;
     }
@@ -437,6 +464,12 @@ footer ul li a:hover {
     }
 
     /* ==================== NAVBAR ==================== */
+    nav {
+        /* position: fixed; */
+        background: var(--color-primary);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    }
+
     nav button {
         display: inline-block;
         background: transparent;
@@ -484,6 +517,7 @@ footer ul li a:hover {
         0% {
             transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
         }
+
         100% {
             transform: rotateZ(0) rotateX(0) scale(1);
             opacity: 1;
@@ -504,10 +538,10 @@ footer ul li a:hover {
         color: var(--color-white);
     }
 
-    
+
     /* ==================== HEADER ==================== */
 
-    header {
+    .header_1 {
         height: 52vh;
         margin-bottom: 4rem;
     }
@@ -563,7 +597,7 @@ footer ul li a:hover {
 
 /* ========================================== MEDIA QUERIES (PHONES) ========================================== */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
@@ -572,7 +606,7 @@ footer ul li a:hover {
     .nav__menu {
         right: 3%;
     }
-    
+
     /* ==================== HEADER ==================== */
     header {
         height: 100vh;
@@ -592,7 +626,7 @@ footer ul li a:hover {
     .categories__left {
         text-align: center;
     }
-    
+
     .categories__right {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
@@ -610,7 +644,7 @@ footer ul li a:hover {
 
     /* ==================== POPULAR COURSES ==================== */
     .courses__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
 
     /* ==================== TESTIMONIALS ==================== */

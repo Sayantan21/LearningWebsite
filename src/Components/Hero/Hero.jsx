@@ -1,10 +1,11 @@
 import React from 'react'
 import '../../assets/css/style.css'
 import header_svg from '../../assets/images/header.svg'
+// import header_svg from '../../assets/images/hero_image.png'
 import { Link } from 'react-router-dom'
 const Hero = () => {
     return (
-        <header>
+        <header className='header_1'>
             <div className="container header__container">
                 <div className="header__left">
                     <h1>Grow your skills to advance your career part</h1>

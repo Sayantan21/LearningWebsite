@@ -1,0 +1,83 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.topics_main_container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px 70px;
+    /* border: 1px solid black; */
+    
+}
+.topics_main_container > *{
+    font-family: 'Poppins', sans-serif;
+}
+
+.topic_container {
+    /* border: 1px solid black; */
+}
+
+.content_answer {
+    letter-spacing: 1px;
+    margin: 20px 0;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.code_snippet_container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+
+.code_snippet_answer{
+    margin: 15px 0;
+}
+
+.code_snippet_sub_container{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+}
+
+.input_heading{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.code_image{
+    object-fit: cover;
+}
+
+.button_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .topics_main_container {
+        padding: 20px 5px;
+    }
+    .content_answer{
+        font-size: 15px;
+    }
+
+    .code_snippet_container{
+        padding: 10px 15px;
+    }
+
+    .code_snippet_sub_container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    
+    }
+}
