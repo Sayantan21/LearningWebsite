@@ -131,9 +131,6 @@ export default function Topics() {
 
     return (
         <>
-            {/* <div style={{ minHeight: "80vh", maxHeight: "auto", padding: "30px 10px" }}>
-                
-            </div> */}
             <Box sx={{ flexGrow: 1, display: 'flex' }}>
                 <div style={{ padding: "10px 15px" }}>
                     {

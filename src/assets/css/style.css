@@ -123,6 +123,9 @@ nav {
     top: 0;
     z-index: 11;
 }
+.nav_logo{
+    color: aliceblue;
+}
 
 /* change navbar styles on scroll using javascript */
 .window-scroll {
