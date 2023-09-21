@@ -20,7 +20,7 @@ import { Button, Tab, Tabs } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 
 // import '../../assets/css/style.css'
-
+import '../../assets/css/topics.css'
 
 
 const drawerWidth = 240;
@@ -85,7 +85,7 @@ function ResponsiveDrawer(props) {
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
-    setMobileOpen(!mobileOpen);
+    // setMobileOpen(!mobileOpen);
   };
 
 
@@ -96,13 +96,13 @@ function ResponsiveDrawer(props) {
     right: false,
   });
 
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-      return;
-    }
+  // const toggleDrawer = (anchor, open) => (event) => {
+  //   if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+  //     return;
+  //   }
 
-    setState({ ...state, [anchor]: open });
-  };
+  //   setState({ ...state, [anchor]: open });
+  // };
 
   const drawer = (
     <div>
@@ -136,10 +136,10 @@ function ResponsiveDrawer(props) {
       <AppBar
         style={{ height: "65px" }}
         // position="fixed"
-        sx={{
-          width: { sm: `calc(100% - ${drawerWidth}px)` },
-          ml: { sm: `${drawerWidth}px` },
-        }}
+        // sx={{
+        //   width: { sm: `calc(100% - ${drawerWidth}px)` },
+        //   ml: { sm: `${drawerWidth}px` },
+        // }}
       >
         <Toolbar>
           <IconButton
@@ -163,12 +163,11 @@ function ResponsiveDrawer(props) {
         aria-label="mailbox folders"
       >
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-        {/* <Drawer
+        <Drawer
           container={container}
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
-          onKeyDown={handleDrawerToggle}
           ModalProps={{
             keepMounted: true, // Better open performance on mobile.
           }}
@@ -178,7 +177,7 @@ function ResponsiveDrawer(props) {
           }}
         >
           {drawer}
-        </Drawer> */}
+        </Drawer>
         <Drawer
           variant="permanent"
           sx={{
@@ -190,6 +189,8 @@ function ResponsiveDrawer(props) {
           {drawer}
         </Drawer>
       </Box>
+
+      
       <Box
         component="main"
         sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
