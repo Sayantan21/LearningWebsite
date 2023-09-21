@@ -163,7 +163,7 @@ function ResponsiveDrawer(props) {
         aria-label="mailbox folders"
       >
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-        <Drawer
+        {/* <Drawer
           container={container}
           variant="temporary"
           open={mobileOpen}
@@ -178,7 +178,7 @@ function ResponsiveDrawer(props) {
           }}
         >
           {drawer}
-        </Drawer>
+        </Drawer> */}
         <Drawer
           variant="permanent"
           sx={{

@@ -325,6 +325,195 @@ const content_details2 = [
                             },
                         ]
                     },
+                    {
+                        "id": 4,
+                        "question": "What are HTML Attributes?",
+                        "answer": `<p>HTML attributes are extra bits of data you can include with HTML elements to provide more information or specifics about certain elements. These properties are used to change an HTML element's behavior, appearance, or functionality and are normally supplied in the opening tag of the element. The name of the attribute indicates what it does, while the value of the attribute offers the exact data or setting for that attribute. Attributes are usually written as name-value pairs.</p><br>
+                        <p><b>Here are some common HTML tags along with examples:</b></p>`,
+                        "answer_link": "",
+                        "code_snippet": [
+                            {
+                                "id":1,
+                                "answer":"(i) id: Used to uniquely identify an element on a web page. Each id attribute value must be unique within the page.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":2,
+                                "answer":"(ii) class: Assigns one or more CSS classes to an element, allowing you to apply styles and formatting to multiple elements with the same class.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":3,
+                                "answer":"(iii) src: Specifies the source URL of external resources such as images, audio, video, or scripts.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":4,
+                                "answer":"(iv) href: Used in anchor (<a>) elements to specify the URL of the linked page.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":5,
+                                "answer":"(v) alt: Provides alternative text for images, which is displayed if the image cannot be loaded or for accessibility purposes.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":6,
+                                "answer":"(vi) width and height: Sets the width and height of elements like images and table cells.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":7,
+                                "answer":"(vii) style: Allows you to specify inline CSS styles for an element.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":8,
+                                "answer":"(viii) data-*: Custom attributes that can be used to store data associated with an element. These attributes don't affect the element's appearance or behavior by default but can be accessed and manipulated using JavaScript.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":9,
+                                "answer":"(ix) target: Used in anchor (<a>) elements to specify where the linked content should be opened (e.g., in a new window or tab).",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "question": "What are HTML Attributes?",
+                        "answer": `<p>HTML attributes are extra bits of data you can include with HTML elements to provide more information or specifics about certain elements. These properties are used to change an HTML element's behavior, appearance, or functionality and are normally supplied in the opening tag of the element. The name of the attribute indicates what it does, while the value of the attribute offers the exact data or setting for that attribute. Attributes are usually written as name-value pairs.</p><br>
+                        <p><b>Here are some common HTML tags along with examples:</b></p>`,
+                        "answer_link": "",
+                        "code_snippet": [
+                            {
+                                "id":1,
+                                "answer":"(i) id: Used to uniquely identify an element on a web page. Each id attribute value must be unique within the page.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":2,
+                                "answer":"(ii) class: Assigns one or more CSS classes to an element, allowing you to apply styles and formatting to multiple elements with the same class.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":3,
+                                "answer":"(iii) src: Specifies the source URL of external resources such as images, audio, video, or scripts.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":4,
+                                "answer":"(iv) href: Used in anchor (<a>) elements to specify the URL of the linked page.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":5,
+                                "answer":"(v) alt: Provides alternative text for images, which is displayed if the image cannot be loaded or for accessibility purposes.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":6,
+                                "answer":"(vi) width and height: Sets the width and height of elements like images and table cells.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":7,
+                                "answer":"(vii) style: Allows you to specify inline CSS styles for an element.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":8,
+                                "answer":"(viii) data-*: Custom attributes that can be used to store data associated with an element. These attributes don't affect the element's appearance or behavior by default but can be accessed and manipulated using JavaScript.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":9,
+                                "answer":"(ix) target: Used in anchor (<a>) elements to specify where the linked content should be opened (e.g., in a new window or tab).",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "question": "What are HTML Attributes?",
+                        "answer": `<p>HTML attributes are extra bits of data you can include with HTML elements to provide more information or specifics about certain elements. These properties are used to change an HTML element's behavior, appearance, or functionality and are normally supplied in the opening tag of the element. The name of the attribute indicates what it does, while the value of the attribute offers the exact data or setting for that attribute. Attributes are usually written as name-value pairs.</p><br>
+                        <p><b>Here are some common HTML tags along with examples:</b></p>`,
+                        "answer_link": "",
+                        "code_snippet": [
+                            {
+                                "id":1,
+                                "answer":"(i) id: Used to uniquely identify an element on a web page. Each id attribute value must be unique within the page.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":2,
+                                "answer":"(ii) class: Assigns one or more CSS classes to an element, allowing you to apply styles and formatting to multiple elements with the same class.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":3,
+                                "answer":"(iii) src: Specifies the source URL of external resources such as images, audio, video, or scripts.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":4,
+                                "answer":"(iv) href: Used in anchor (<a>) elements to specify the URL of the linked page.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":5,
+                                "answer":"(v) alt: Provides alternative text for images, which is displayed if the image cannot be loaded or for accessibility purposes.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":6,
+                                "answer":"(vi) width and height: Sets the width and height of elements like images and table cells.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":7,
+                                "answer":"(vii) style: Allows you to specify inline CSS styles for an element.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":8,
+                                "answer":"(viii) data-*: Custom attributes that can be used to store data associated with an element. These attributes don't affect the element's appearance or behavior by default but can be accessed and manipulated using JavaScript.",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                            {
+                                "id":9,
+                                "answer":"(ix) target: Used in anchor (<a>) elements to specify where the linked content should be opened (e.g., in a new window or tab).",
+                                "input_image":html_1,
+                                "output_image":html_1
+                            },
+                        ]
+                    },
                 ]
             },
             {
