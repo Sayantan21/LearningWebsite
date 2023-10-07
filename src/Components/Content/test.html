@@ -7,8 +7,57 @@
 </head>
 
 <body>
-    <p>This is <span style="color: red;">red</span> text.</p>
+
+    <!-- <ul style="list-style:disc;">
+        <li>
+            <p><b>Multi-line Comments:</b></p>
+            <ul style="margin-left: 15px;">
+                <li style="list-style: disc; margin-left: 10px;">
+                    <p>Multi-line comments, also known as block comments, are enclosed in '/*' and '*/' .</p>
+                </li>
+                <li style="list-style: disc; margin-left: 10px;">
+                    <p>They can span multiple lines and are often used for longer explanations or to temporarily exclude
+                        blocks of code.</p>
+                </li>
+            </ul>
+        </li>
+    </ul> -->
+
+    <p>
+        It's important to note that hoisting occurs differently for <b>var</b>, <b>let</b>, and <b>const</b>
+        declarations: <br>
+
+        Variables declared with <b>var</b> are hoisted and initialized with <b>undefined</b>. <br>
+        Variables declared with <b>let</b> and <b>const</b> are hoisted but remain uninitialized (in a "temporal dead
+        zone") until
+        their actual declaration in the code. Attempting to access them before their declaration results in a
+        <b>ReferenceError</b>. <br>
+        Understanding hoisting is crucial for writing reliable JavaScript code. It's a good practice to declare your
+        variables and functions at the beginning of their respective scopes to make your code more predictable and
+        maintainable, even if they are technically hoisted by the JavaScript engine.
+    </p>
+
+
+
+
+
 
 </body>
+
+
+<script>
+
+
+    console.log(x); // Outputs: undefined
+    var x = 10;
+    console.log(x); // Outputs: 10
+
+
+    /*
+        In this example, 'var x' is hoisted to the top, but its value is not initialized yet, so the first 'console.log(x)' outputs 'undefined'. The second 'console.log(x)' correctly outputs '10' after the variable is initialized.
+    */
+
+   
+</script>
 
 </html>

@@ -210,16 +210,16 @@ function ResponsiveDrawer(props) {
                       // console.log(data)
                       return <>
                         <div className='code_snippet_container' key={data.id}>
-                          <p className='code_snippet_answer'><b>{data.answer}</b></p>
+                          <p className='code_snippet_answer'dangerouslySetInnerHTML={{ __html: data.answer }}></p>
                           <div className='code_snippet_sub_container'>
                             <div className='input_box'>
-                              <p className='input_heading'>Input</p>
+                              {/* <p className='input_heading'>{data.input_image? "Input" : ""}</p> */}
                               <img className='code_image' src={data.input_image} alt="" />
                             </div>
                             {
                               data.output_image && <>
                                 <div>
-                                  <p className='input_heading'>Output</p>
+                                  {/* <p className='input_heading'>{data.output_image? "Output" : ""}</p> */}
                                   <img className='code_image' src={data.output_image} alt="" />
                                 </div>
                               </>
